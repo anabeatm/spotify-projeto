@@ -40,6 +40,14 @@ h1 {
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
 }
+.sidebar nav ul li a .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.sidebar nav ul li a:hover {
+    color: #ffff;
+}
 .library {
     background-color: #f17ba2;
     border-radius: 8px;
@@ -49,6 +57,7 @@ h1 {
     padding: 4px 8px;
     color:#fff;
     font-weight: 600;
+    font-size: 14px;
     margin-top: 10px;
     flex-direction: column;
 }
