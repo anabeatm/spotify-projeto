@@ -1,2 +1,2 @@
-﻿# spotify-imersao
+﻿# Spotify Imersao Alura
 # #ImersãoFrontEnd #Alura
