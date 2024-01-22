@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #DB7093;
 }
 h1 {
     color: #fff;
@@ -13,12 +13,12 @@ h1 {
     width: 300px;
 }
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #f17ba2;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 .sidebar__navigation .logo {
-    background-color: #121212;
+    background-color: #f17ba2;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -34,7 +34,7 @@ h1 {
     padding: 10px 0;
 }
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
