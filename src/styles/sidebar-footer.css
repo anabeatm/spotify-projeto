@@ -1,5 +1,6 @@
 body {
     background-color: #DB7093;
+    font-family: var(--font--dm--sans);
 }
 h1 {
     color: #fff;
