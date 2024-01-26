@@ -4,4 +4,13 @@
     /* color */
     --bg-icon: #f17ba2;
     --bg-arrow-color: rgba(0,0,0,7)
+
+    @media screen and (max-width: 767px) {
+    }
+    @media screen and (min-width: 768px) and (max-width: 1274px) {
+    }
+
+    --grid-gap: 24px;
+    --column-count: 5;
+    --min-container-width: 372px;
 }
