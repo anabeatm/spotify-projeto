@@ -95,13 +95,13 @@
 }
 .playlist .greeting {
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
 }
 .playlist .session {
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
 .offer__scroll-container {
@@ -201,22 +201,24 @@
 .grid-container {
     grid-gap: 24px;
     display: grid;
-    grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-    min-width: var(--min-container-width);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
 }
 .artist-card {
-    background: #181818;
+    background: #DB7093;
     border-radius: 8px;
     -ms-flex: 1;
     flex: 1;
     isolation: isolate;
     padding: 16px;
+    box-sizing: border-box;
+    margin: 10px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 100%;
+    width: 180px;
 }
 .artist-card:hover {
-    background-color: #252525;
+    background-color: #f6a0bc;
 }
 .card-img {
     padding-bottom: 100%;
@@ -253,7 +255,7 @@
     padding-block-end: 0px;
 }
 .artist-categorie {
-    color: #6a6a6a;
+    color: #fff;
     font-weight: 400;
     font-size: 0.875rem;
 }
@@ -273,7 +275,7 @@
 }
 .artist-card:hover .play .fa-play {
     opacity: 1;
-    transform: translate(-20px);
+    transform: translateY(-20px);
 }
 .play .fa-play:hover {
     padding: 20px;
