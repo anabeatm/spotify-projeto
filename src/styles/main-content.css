@@ -241,6 +241,8 @@
     overflow: ellipsis;
     white-space: nowrap;
     min-height: 62px;
+    justify-content: center;
+    align-items: center;
 }
 .card-text a {
     display: inline-block;
